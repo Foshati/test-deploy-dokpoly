@@ -6,7 +6,6 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -57,11 +56,11 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <Script
+        <script
+          defer
           src="https://cloud.umami.is/script.js"
-          strategy="afterInteractive"
           data-website-id="5af0b94b-28f2-4cd4-b0a4-f1a6ac823ef3"
-        />
+        ></script>
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}

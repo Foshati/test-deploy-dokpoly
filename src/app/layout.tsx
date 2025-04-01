@@ -27,8 +27,8 @@ export default function RootLayout({
       <head>
         <script
           defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="5af0b94b-28f2-4cd4-b0a4-f1a6ac823ef3"
+          src="https://teljoo.com/script.js"
+          data-website-id="1bc2d7f2-9677-4036-ae7d-15160f5c725e"
         />
       </head>
       <body

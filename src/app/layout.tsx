@@ -6,6 +6,7 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          defer
+        <Script
+          async
           src="https://teljoo.com/script.js"
           data-website-id="1bc2d7f2-9677-4036-ae7d-15160f5c725e"
         />
